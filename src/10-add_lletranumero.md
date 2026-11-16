@@ -1,7 +1,39 @@
-# Aviso de traducción
+# Convertir letras en números
 
-::: warning Aviso de traducción
-Estamos trabajando para ofrecer la versión en español con el nivel y la calidad que os merecéis. Este módulo fue impartido originalmente en valenciano en el centro docente y lo estamos adaptando progresivamente. Gracias por tu paciencia.
+<div style="display: flex;">
+
+<div style="flex: 1; padding: 10px;">
+
+![Tabla ASCII](/uf6/Tabla_ASCII.jpg)
+
+</div>
+
+<div style="flex: 1; padding: 10px;">
+
+**Todos los caracteres tienen un valor ASCII**. Cuando asignamos un carácter a una variable numérica, lo que Java interpreta es que estamos asignando su valor ASCII.
+
+::: tabs
+== Java
+
+```java
+char letra = 'A';
+int numero = letra;
+```
+
 :::
 
-<a href="/UD6/ca/index" style="display:inline-block;padding:0.4em 0.8em;border-radius:6px;background:#3e63dd;color:white;text-decoration:none;margin:4px 0;">Ver contenido en valenciano →</a>
+La variable `numero` contiene el valor 65.
+
+¿Cuál será el valor de la variable `numero` en esta expresión?
+
+::: tabs
+== Java
+
+```java
+numero = 'C' – 'A';
+```
+
+:::
+
+</div>
+</div>
