@@ -19,20 +19,20 @@ Esta unidad está dedicada al estudio de las funciones, un elemento fundamental 
 
 Esta unidad didáctica tiene como objetivo principal que el alumnado aprenda a modular el código mediante el uso de funciones y métodos.
 
-- Objetivo 6.1: Entender el concepto de función y su utilidad para la organización y la reutilización del código.
-- Objetivo 6.2: Declarar y llamar funciones, y comprender la diferencia entre ambas acciones.
-- Objetivo 6.3: Comprender el **ámbito de las variables** (scope) y sus implicaciones en el flujo del programa.
-- Objetivo 6.4: Utilizar **parámetros** para pasar datos a las funciones y entender la distinción entre el paso por **valor** y el paso por **referencia**.
-- Objetivo 6.5: Diseñar funciones que devuelvan un valor para poder utilizar el resultado en otras partes del código.
+- Objetivo 5.1: Entender el concepto de función y su utilidad para la organización y la reutilización del código.
+- Objetivo 5.2: Declarar y llamar funciones, y comprender la diferencia entre ambas acciones.
+- Objetivo 5.3: Comprender el **ámbito de las variables** (scope) y sus implicaciones en el flujo del programa.
+- Objetivo 5.4: Utilizar **parámetros** para pasar datos a las funciones y entender la distinción entre el paso por **valor** y el paso por **referencia**.
+- Objetivo 5.5: Diseñar funciones que devuelvan un valor para poder utilizar el resultado en otras partes del código.
 - Objetivo 6.6: Introducir el concepto de **recursividad** para resolver problemas de manera elegante y eficiente.
 
 ---
 
 | Criterio de Evaluación | Objetivos Didácticos |
 | :--- | :--- |
-| **RA02.d**: Se han utilizado métodos y propiedades de los objetos. | **Objetivo 6.2, Objetivo 6.4** |
-| **RA02.f**: Se han utilizado parámetros en la llamada a métodos. | **Objetivo 6.4** |
-| **RA04.c**: Se han definido propiedades y métodos. | **Objetivo 6.2, Objetivo 6.5** |
+| **RA02.d**: Se han utilizado métodos y propiedades de los objetos. | **Objetivo 5.2, Objetivo 5.4** |
+| **RA02.f**: Se han utilizado parámetros en la llamada a métodos. | **Objetivo 5.4** |
+| **RA04.c**: Se han definido propiedades y métodos. | **Objetivo 5.2, Objetivo 5.5** |
 
 :::
 
