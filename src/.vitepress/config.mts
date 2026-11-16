@@ -1,7 +1,7 @@
 import { tabsMarkdownPlugin } from 'vitepress-plugin-tabs'
 
 export default ({
-  base: '/UF6-tgNhRXcMY0jWpWS7Cxxm/',
+  base: '/UF5-Programacion_Modular_Funciones/',
   outDir: '../docs',
   markdown: {
     config(md) {
@@ -16,8 +16,8 @@ export default ({
       label: 'Español',
       lang: 'es-ES',
       link: '/',
-      title: 'UF6 - Funciones',
-      description: 'Unidad 6 donde se abordan los conceptos de funciones.',
+      title: 'UF5 - Programación Modular y Funciones',
+      description: 'Unidad 5 donde se abordan los conceptos de funciones.',
       themeConfig: {
         siteTitle: 'Funciones',
         outline: { label: 'En esta página' },
@@ -34,40 +34,12 @@ export default ({
               { text: '7. Recursividad', link: '/7-recursivitat' },
               { text: '💡Ejemplos', link: '/8-exemples' },
               { text: '✏️Ejercicios', link: '/9-exercicis' },
-               { text: '✅Solucions', link: '/11-solucions' }
-            ]}
-          ]
-      }
-    },
-    ca: {
-      label: 'Valencià',
-      lang: 'ca-ES',
-      link: '/ca/',
-      title: 'U6 - Funcions',
-      description: 'Unitat 6 on s\'aborden els conceptes bàsics de les funcions.',
-      themeConfig: {
-        siteTitle: 'Funcions',
-        outline: { label: 'En aquesta pàgina' },
-          docFooter: { prev: 'Anterior', next: 'Següent' },
-          nav: [
-            { text: '🏠 Inici', link: '/ca/index' },
-            { text: '📚 Continguts', items: [
-              { text: '1. Introducció', link: '/ca/1-introduccio' },
-              { text: "2. Declaració d'una funció", link: '/ca/2-declaracio' },
-              { text: '3. Cridar una funció', link: '/ca/3-crida' },
-              { text: "4. Àmbit de les variables", link: '/ca/4-ambit' },
-              { text: "5. Paràmetres", link: '/ca/5-parametres' },
-              { text: "6. Devolució d'un valor", link: "/ca/6-devolucio" },
-              { text: '7. Recursivitat', link: '/ca/7-recursivitat' },
-              { text: '💡Exemples', link: '/ca/8-exemples' },
-              { text: '✏️Exercicis', link: '/ca/9-exercicis' },
-               { text: '✅Solucions', link: '/ca/11-solucions' }
+              { text: '✅Solucions', link: '/11-solucions' }
             ]}
           ]
       }
     }
   },
-  // Tema por idioma
   themeConfig: {
     logo: '/img/logo.png',
     socialLinks: [
@@ -86,36 +58,12 @@ export default ({
             { text: "6. Devolución de un valor", link: "/6-devolucio" },
             { text: '7. Recursividad', link: '/7-recursivitat' },
             { text: '💡Ejemplos', link: '/8-exemples' },
-            { text: '✏️Ejercicios', link: '/9-exercicis' },
-             { text: '✅Solucions', link: '/11-solucions' }
+            { text: '✏️Ejercicios', link: '/9-exercicis' }
           ]
         },
         { text: '📚 Contenidos adicionales', items: [
           { text: 'Convertir letra a número', link: '/10-add_lletranumero' },
-          { text: '<img src="img/logo-gva.png" class="logo-anim" style="vertical-align:middle; height:150px; margin-top:100px;">', link: '' },
-          { text: '<img src="img/logo-centro.png" class="logo-anim" style="vertical-align:middle; height:150px;">', link: '' }
-        ]}
-      ],
-      '/ca/': [
-        {
-          text: '📚 Continguts',
-          items: [
-            { text: '1. Introducció', link: '/ca/1-introduccio' },
-            { text: "2. Declaració d'una funció", link: '/ca/2-declaracio' },
-            { text: '3. Cridar una funció', link: '/ca/3-crida' },
-            { text: "4. Àmbit de les variables", link: '/ca/4-ambit' },
-            { text: "5. Paràmetres", link: '/ca/5-parametres' },
-            { text: "6. Devolució d'un valor", link: "/ca/6-devolucio" },
-            { text: '7. Recursivitat', link: '/ca/7-recursivitat' },
-            { text: '💡Exemples', link: '/ca/8-exemples' },
-            { text: '✏️Exercicis', link: '/ca/9-exercicis' },
-             { text: '✅Solucions', link: '/ca/11-solucions' }
-          ]
-        },
-        { text: '📚 Continguts addicionals', items: [
-          { text: 'Convertir lletra a número', link: '/ca/10-add_lletranumero' },
-          { text: '<img src="../img/logo-gva.png" class="logo-anim" style="vertical-align:middle; height:150px; margin-top:100px;">', link: '' },
-          { text: '<img src="../img/logo-centro.png" class="logo-anim" style="vertical-align:middle; height:150px;">', link: '' }
+          { text: '<img src="img/logo-gva.png" class="logo-anim" style="vertical-align:middle; height:150px; margin-top:100px;">', link: '' }
         ]}
       ]
     },

@@ -1,7 +1,20 @@
-# Aviso de traducción
+# 1. Introducción
 
-::: warning Aviso de traducción
-Estamos trabajando para ofrecer la versión en español con el nivel y la calidad que os merecéis. Este módulo fue impartido originalmente en valenciano en el centro docente y lo estamos adaptando progresivamente. Gracias por tu paciencia.
-:::
+La mejor manera de crear y mantener un programa grande es construirlo a partir de piezas más pequeñas o módulos, cada uno de los cuales es más manejable que el programa completo.
 
-<a href="/UD6/ca/index" style="display:inline-block;padding:0.4em 0.8em;border-radius:6px;background:#3e63dd;color:white;text-decoration:none;margin:4px 0;">Ver contenido en valenciano →</a>
+Las **funciones** (también llamadas subprogramas o procedimientos, según el lenguaje) permiten evitar la repetición de código, ya que se pueden invocar desde distintos puntos del programa mediante una única llamada.
+
+El concepto de función consiste en encapsular un conjunto de instrucciones dentro de una declaración específica. Esto permite dividir el problema en tareas más pequeñas y claramente diferenciadas, facilitando la descomposición funcional y la organización del programa.
+
+**Utilidades principales de las funciones**:
+
+- Agrupar código que representa una idea o acción concreta.
+- Evitar repetir código que debe reutilizarse varias veces.
+- Dividir un programa grande en partes más simples y especializadas.
+
+**Características habituales de las funciones**:
+
+- Tienen un nombre único que las identifica.
+- Se pueden llamar desde cualquier punto del programa (si el contexto lo permite).
+- Pueden recibir valores de entrada (parámetros) para procesarlos.
+- Pueden devolver un resultado como respuesta.

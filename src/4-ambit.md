@@ -1,7 +1,7 @@
-# Aviso de traducción
+# 4. Ámbito de las variables
 
-::: warning Aviso de traducción
-Estamos trabajando para ofrecer la versión en español con el nivel y la calidad que os merecéis. Este módulo fue impartido originalmente en valenciano en el centro docente y lo estamos adaptando progresivamente. Gracias por tu paciencia.
-:::
+Una función solo puede utilizar sus **variables locales**, es decir, aquellas que se declaran dentro de la propia función: tanto los parámetros como las variables creadas en su interior. Estas variables se inicializan cada vez que se ejecuta la función y dejan de existir cuando finaliza.
 
-<a href="/UD6/ca/index" style="display:inline-block;padding:0.4em 0.8em;border-radius:6px;background:#3e63dd;color:white;text-decoration:none;margin:4px 0;">Ver contenido en valenciano →</a>
+Por todo ello, una función no puede acceder directamente a variables declaradas fuera de ella y, a la inversa, el código externo a la función tampoco puede acceder a sus variables locales. Esta propiedad se denomina encapsulación y es fundamental para mantener el código bien organizado, modular y más fácil de mantener en programas grandes y complejos.
+
+Aunque técnicamente algunos lenguajes de programación permiten acceder a variables externas mediante mecanismos específicos (como las variables globales, las clausuras o los miembros de una clase), no es una práctica recomendada en general, especialmente si se busca escribir código robusto, reutilizable y fácil de depurar.
